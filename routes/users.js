@@ -61,7 +61,8 @@ router.post('/register' , (req, res) => {
                     password2   
                 });
 
-            } else {
+            } 
+           else {
                
                 const newUser = new User({
                     name,
